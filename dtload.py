@@ -1,6 +1,6 @@
 import sqlite3
 
-con = sqlite3.connect('kp.db')
+con = sqlite3.connect('db_sample.db')
 db = con.cursor()
 
 db.executescript("""

@@ -76,15 +76,13 @@ class WindowMain:
         else:
             messagebox.showwarning("Advertencia", "No se ingresaron datos")
 
+    def info(self):
+                messagebox.showinfo("Keyperu v0.0.1", "Gracias por usar mi version gratuita para aumentar tu seguridad, recuerda que puedes revisar el codigo fuente https://github.com/moisespe/keyperu.")
 
 
 
 
     def layout(self):
-
-        def info(self):
-            messagebox.showinfo("Keyperu v0.0.1", "Gracias por usar mi version gratuita para aumentar tu seguridad, recuerda que puedes revisar el codigo fuente https://github.com/moisespe/keyperu.")
-
 
         lbname = tk.Label(self.root, text="Name", bg="#fff").place(x=10, y=20)                                                                                                                                                                      
         self.inname_entry = tk.Entry(self.root, width=30)
